@@ -136,7 +136,7 @@ class Grid
     int CurrentRow { get; set; }
     int CurrentColumb { get; set; }
 
-    public void DangerCoordinate((int, int) dangerCoordinate)
+    public void RemoveCoordinate((int, int) dangerCoordinate)
     {
         CoordinatesList.Remove(dangerCoordinate); // Removes the first occurrence of the specified item
     }
